@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="padding-left: 400px; margin: 50px">
+    <form>
+      <table border="5px soid black">
+        <tbody>
+          <tr>
+            <td><label for="name">Name </label></td>
+            <td><input type="text" id="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="pw">IC No </label></td>
+            <td><input type="text" id="pw" /></td>
+          </tr>
+          <tr>
+            <td><label for="address">Address</label></td>
+            <td><textarea id="address"></textarea></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" name="choice" />Male <br />
+              <input type="radio" name="choice" />Female
+            </td>
+          </tr>
+
+          <tr>
+            <td>Dance Type</td>
+            <td>
+              <input type="checkbox" />Zapin <input type="checkbox" />Joget
+              <input type="checkbox" />Inang <input type="checkbox" />Lion Dance
+            </td>
+          </tr>
+          <tr>
+            <td><label for="comp">Competition</label></td>
+            <td>
+              <select id="comp" multiple="multiple">
+                <option value="">State Level</option>
+                <option value="">District Level</option>
+                <option value="">National Level</option>
+                <option value="">InterNational Level</option>
+                <option value="">Olimbic</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="nation">Nationality</label></td>
+            <td>
+              <select id="nation">
+                <option value="">Please Select</option>
+                <option value="">India</option>
+                <option value="">US</option>
+                <option value="">China</option>
+                <option value="">Russia</option>
+                <option value="">DenMark</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="pw-b">Password</label></td>
+            <td><input type="password" id="pw-b" /></td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="margin-top: 10px">
+        <button type="submit">Register Me</button>
+        <button type="reset">Cancel</button>
+      </div>
+    </form>
+  </body>
+</html>

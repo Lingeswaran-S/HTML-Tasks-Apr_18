@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="padding-left: 400px; margin: 50px">
+    <form>
+      <table border="5px soid black">
+        <tbody>
+          <tr>
+            <td><label for="name">Name </label></td>
+            <td><input type="text" id="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="pw">Password </label></td>
+            <td><input type="password" id="pw" /></td>
+          </tr>
+          <tr>
+            <td><label for="city">City of Employement </label></td>
+            <td><input type="text" id="city" /></td>
+          </tr>
+          <tr>
+            <td><label for="web-s">Web server</label></td>
+            <td>
+              <select id="web-s">
+                <option>Please Select</option>
+                <option>Apache</option>
+                <option>Nginx</option>
+                <option>Caddy</option>
+                <option>Gettly</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Please specify your role</td>
+            <td>
+              <input type="radio" name="choice" />Admin <br />
+              <input type="radio" name="choice" />Engineer <br />
+              <input type="radio" name="choice" />Manager <br />
+              <input type="radio" name="choice" />Guest
+            </td>
+          </tr>
+          <tr>
+            <td>Single sign-on to the following</td>
+            <td>
+              <input type="checkbox" />Mail <input type="checkbox" />Payroll
+              <input type="checkbox" />Self-Service
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="padding-left: 340px; margin-top: 10px">
+        <button type="submit">Login</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
